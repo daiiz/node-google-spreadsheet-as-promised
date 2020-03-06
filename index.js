@@ -1,4 +1,4 @@
-var GoogleSpreadsheet = require('google-spreadsheet');
+var { GoogleSpreadsheet } = require('google-spreadsheet');
 
 var parseColumn = function(string) {
     var result = 0;
